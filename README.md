@@ -1,10 +1,12 @@
 # Lyft_Data_Challange
 Data Challenge held by Lyft.
-Thanks for participating in the first round of the Lyft Data Challenge!
 You'll find three CSV files attached with the following data:
-data/driver_ids.csv
-driver_id Unique identifier for a driver
+<h2>data/driver_ids.csv</h2>
+<ul>
+  <li>driver_id Unique identifier for a driver</li>
+</ul>
 driver_onboard_date Date on which driver was on-boarded
+
 data/ride_ids.csv
 driver_id Unique identifier for a driver
 ride_id Unique identifier for a ride that was completed by the driver
