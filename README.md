@@ -24,46 +24,27 @@ You can assume that:
 <ul>
   <li>All rides in the data set occurred in San Francisco</li>
   <li>All timestamps in the data set are in UTC</li>
-After exploring and analyzing the data, please:
-1. Recommend a Driver's Lifetime Value (i.e., the value of a driver to Lyft over the entire
-projected lifetime of a driver).
-2. Please answer the following questions:
-a. What are the main factors that affect a driver's lifetime value?
-b. What is the average projected lifetime of a driver? That is, once a driver is
-onboarded, how long do they typically continue driving with Lyft?
-c. Do all drivers act alike? Are there specific segments of drivers that generate more
-value for Lyft than the average driver?
-d. What actionable recommendations are there for the business?
-3. Prepare and submit a writeup of your findings for consumption by a cross-functional
-audience.
-Here is an overview of the event types:
-requested_at passenger requested a ride
-accepted_at driver accepted a passenger request
-arrived_at driver arrived at pickup point
-picked_up_at driver picked up the passenger
-dropped_off_at driver dropped off a passenger at destination
-You can make the following assumptions about the Lyft rate card:
-Base Fare $2.00
-Cost per Mile $1.15
-Cost per Minute $0.22
-Service Fee $1.75
-Minimum Fare $5.00
-Maximum Fare $400.00
-Submission instructions:
-● Summarize your conclusions at the beginning of your writeup.
-● Your writeup should be a PDF (max 5 pages) and labeled with the following naming
-convention:
-[Team Name]_[Writeup]_[First Student Initials]_[Second Student Initials].pdf;
-Ex. “LyftDataChallengeTeam_Writeup_DF_HL.pdf”
-● Your writeup and all of your working materials should then be saved together as a zip file
-with the following naming convention:
-[Team Name]_[First Student Initials]_[Second Student Initials].zip;
-ex: “LyftDataChallengeTeam_DF_HL.zip”
-● The max file size for your zip file is 10 MB (so please do not include the raw data CSVs).
-● Keep in mind that we will be assessing the challenge based on its technical soundness
-and depth, business applications and insights, and structure and organization.
-● Our intention is for teams to spend no more than 8 hours on this prompt.
-● The deadline to upload your submission is Sunday, September 15 11:59pm PDT . Late
-entries will not be evaluated.
-● If you have questions or technical difficulties, please contact us at
-data-challenge@lyft.com
+</ul>
+After exploring and analyzing the data, please:<br>
+1. Recommend a Driver's Lifetime Value (i.e., the value of a driver to Lyft over the entire projected lifetime of a driver).<br>
+2. Please answer the following questions:<br>
+<ol type="a">
+  <li>What are the main factors that affect a driver's lifetime value?</li>
+  <li>What is the average projected lifetime of a driver? That is, once a driver is onboarded, how long do they typically continue driving with Lyft?</li>
+  <li>Do all drivers act alike? Are there specific segments of drivers that generate more value for Lyft than the average driver?</li>
+  <li>d. What actionable recommendations are there for the business?</li>
+</ol>
+3. Prepare and submit a writeup of your findings for consumption by a cross-functional audience.<br>
+Here is an overview of the event types:<br>
+requested_at&emsp;&emsp;&emsp;&emsp;passenger requested a ride<br>
+accepted_at&emsp;&emsp;&emsp;&emsp;driver accepted a passenger request<br>
+arrived_at&emsp;&emsp;&emsp;&emsp;driver arrived at pickup point<br>
+picked_up_at&emsp;&emsp;&emsp;&emsp;driver picked up the passenger<br>
+dropped_off_at&emsp;&emsp;&emsp;&emsp;driver dropped off a passenger at destination<br>
+You can make the following assumptions about the Lyft rate card:<br>
+Base Fare&emsp;&emsp;&emsp;&emsp;$2.00<br>
+Cost per Mile&emsp;&emsp;&emsp;&emsp;$1.15<br>
+Cost per Minute&emsp;&emsp;&emsp;&emsp;$0.22<br>
+Service Fee&emsp;&emsp;&emsp;&emsp;$1.75<br>
+Minimum Fare&emsp;&emsp;&emsp;&emsp;$5.00<br>
+Maximum Fare&emsp;&emsp;&emsp;&emsp;$400.00<br>
