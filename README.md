@@ -3,26 +3,27 @@ Data Challenge held by Lyft.
 You'll find three CSV files attached with the following data:
 <h2>data/driver_ids.csv</h2>
 <ul>
-  <li>driver_id Unique identifier for a driver</li>
-driver_onboard_date Date on which driver was on-boarded
+  <li>driver_id:Unique identifier for a driver</li>
+  <li>driver_onboard_date:Date on which driver was on-boarded</li>
 </ul>
 <h2>data/ride_ids.csv</h2>
 <ul>
-  <li>driver_id Unique identifier for a driver</li>
-  <li>ride_id Unique identifier for a ride that was completed by the driver</li>
-  <li>ride_distance Ride distance in meters</li>
-  <li>ride_duration Ride duration in seconds</li>
-  <li>ride_prime_time Prime Time applied on the ride</li>
+  <li>driver_id:Unique identifier for a driver</li>
+  <li>ride_id:Unique identifier for a ride that was completed by the driver</li>
+  <li>ride_distance:Ride distance in meters</li>
+  <li>ride_duration:Ride duration in seconds</li>
+  <li>ride_prime_time:Prime Time applied on the ride</li>
 </ul>
 <h2>data/ride_timestamps.csv<h2>
 <ul>
-  <li>ride_id Unique identifier for a ride</li>
-  <li>event event describes the type of event (see below)</li>
-  <li>timestamp Time of event</li>
+  <li>ride_id:Unique identifier for a ride</li>
+  <li>event:event describes the type of event (see below)</li>
+  <li>timestamp:Time of event</li>
 </ul>
 You can assume that:
-● All rides in the data set occurred in San Francisco
-● All timestamps in the data set are in UTC
+<ul>
+  <li>All rides in the data set occurred in San Francisco</li>
+  <li>All timestamps in the data set are in UTC</li>
 After exploring and analyzing the data, please:
 1. Recommend a Driver's Lifetime Value (i.e., the value of a driver to Lyft over the entire
 projected lifetime of a driver).
