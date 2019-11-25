@@ -14,7 +14,7 @@ You'll find three CSV files attached with the following data:
   <li>ride_duration:Ride duration in seconds</li>
   <li>ride_prime_time:Prime Time applied on the ride</li>
 </ul>
-<h2>data/ride_timestamps.csv<h2>
+<h2>data/ride_timestamps.csv</h2>
 <ul>
   <li>ride_id:Unique identifier for a ride</li>
   <li>event:event describes the type of event (see below)</li>
